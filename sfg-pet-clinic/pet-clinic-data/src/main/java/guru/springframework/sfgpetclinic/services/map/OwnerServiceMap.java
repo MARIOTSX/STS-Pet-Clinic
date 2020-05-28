@@ -8,13 +8,13 @@ import guru.springframework.sfgpetclinic.services.CrudService;
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
 
     @Override
-    public void delete(final Owner object) {
+    public void delete(Owner object) {
         // TODO Auto-generated method stub
         super.delete(object);
     }
 
     @Override
-    public void deleteById(final Long id) {
+    public void deleteById(Long id) {
         // TODO Auto-generated method stub
         super.deleteById(id);
     }
@@ -26,7 +26,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public Owner findById(final Long id) {
+    public Owner findById(Long id) {
         // TODO Auto-generated method stub
         return super.findById(id);
     }
