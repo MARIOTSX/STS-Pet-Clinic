@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<pet-clinic-web>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "guru.springframework.sfgpetclinic.DemoApplication",
+            "projectName": "pet-clinic-web",
+            "args": ""
+        }
+    ]
+}
